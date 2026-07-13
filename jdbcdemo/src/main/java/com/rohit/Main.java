@@ -38,8 +38,13 @@ public class Main {
                 ps.setInt(2, 20);
                 ps.setString(3, "Jaipur");
                 ps.executeUpdate();
+                // ---------- Student 4 ----------
+                ps.setString(1, "ajay");
+                ps.setInt(2, 20);
+                ps.setString(3, "Jaipur");
+                ps.executeUpdate();
 
-                System.out.println("3 Students Inserted Successfully!");
+                System.out.println("4 Students Inserted Successfully!");
                 /*This code is good for learning, but in a real application you wouldn't repeat the same block three times.
                     A professional version would use a loop or JDBC batch processing, for example:
                     for (...) {

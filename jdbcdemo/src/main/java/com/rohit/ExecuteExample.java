@@ -24,7 +24,7 @@ public class ExecuteExample {
                 if (hasResult) {
 
                     ResultSet rs = ps.getResultSet();
-
+                    // resultset will store all the data from the query u write
                     while (rs.next()) {
 
                         System.out.println(

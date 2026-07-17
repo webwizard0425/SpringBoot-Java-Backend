@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class UserInputCRUD {
 
     public static void main(String[] args) {
-
+        // updating db with use input
         Scanner sc = new Scanner(System.in);
 
         Connection connection = DBConnection.getConnection();

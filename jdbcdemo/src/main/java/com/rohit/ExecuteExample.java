@@ -10,7 +10,7 @@ public class ExecuteExample {
     public static void main(String[] args) {
 
         Connection connection = DBConnection.getConnection();
-
+        // using execute command
         if (connection != null) {
 
             String query = "SELECT * FROM students";

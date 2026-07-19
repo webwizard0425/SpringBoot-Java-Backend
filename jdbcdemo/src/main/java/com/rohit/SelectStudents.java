@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class SelectStudents {
 
     public static void main(String[] args) {
-
+        // using select statement
         Connection connection = DBConnection.getConnection();
 
         if (connection != null) {

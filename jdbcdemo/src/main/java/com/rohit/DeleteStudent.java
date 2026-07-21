@@ -9,7 +9,7 @@ public class DeleteStudent {
     public static void main(String[] args) {
 
         // Step 1: Get Database Connection
-        // deleteing existing data
+        // deleteing existing data from the databas
         Connection connection = DBConnection.getConnection();
 
         if (connection != null) {

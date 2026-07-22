@@ -11,6 +11,7 @@ public class ExecuteExample {
 
         Connection connection = DBConnection.getConnection();
         // using execute command
+        // updating the database
         if (connection != null) {
 
             String query = "SELECT * FROM students";

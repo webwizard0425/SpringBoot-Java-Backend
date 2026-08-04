@@ -12,9 +12,9 @@ public class Main {
     public static void main(String[] args) {
 
         Alien a1 = new Alien();
-        a1.setAid(102);
-        a1.setAname("Harsh");
-        a1.setAtech("Spring");
+        a1.setAid(105);
+        a1.setAname("Ajay");
+        a1.setAtech("db");
 
 //        Configuration config =
 

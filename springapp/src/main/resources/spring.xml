@@ -6,6 +6,10 @@
            http://www.springframework.org/schema/beans
            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="alien" class="com.rohit.Alien"/>
+    <bean id="computer" class="com.rohit.Computer"/>
+
+    <bean id="alien" class="com.rohit.Alien">
+        <constructor-arg ref="computer"/>
+    </bean>
 
 </beans>

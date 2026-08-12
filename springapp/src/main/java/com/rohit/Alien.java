@@ -9,6 +9,11 @@ public class Alien {
         this.computer=computer;
     }
 
+//    setter injection
+//    public void setComputer(Computer computer) {
+//        this.computer = computer;
+//    }
+
     public void code() {
         computer.compile();
         System.out.println("Alien is coding...");

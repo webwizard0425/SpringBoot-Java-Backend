@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
         // studing new annotations
     // done with basic annotations
+    //will be completeing this by this week
     @RequestMapping("/login")
     public String login(){
         return "You are logged in!!";

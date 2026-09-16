@@ -22,7 +22,8 @@ public class ProductController {
         return service.getProductById(prodId);
     }
 
-    // almost done with rest apis in springboot
+    // almost done  with rest apis in springboot
+    // restapi
     @PostMapping("/products")
     public void addProduct (Product prod){
         service.addProduct(prod);

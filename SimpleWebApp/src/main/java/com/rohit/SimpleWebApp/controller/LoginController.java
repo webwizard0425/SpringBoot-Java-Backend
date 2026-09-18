@@ -10,7 +10,7 @@ public class LoginController {
     //will be completeing this by this week
     @RequestMapping("/login")
     public String login(){
-        return "You are logged in!!";
+        return "You are   logged in!!";
     }
 
 }
